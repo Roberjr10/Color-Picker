@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  justify-content: center;
+  display: flex;
+}
+
+.header img {
+ width: 55px;
+ height: 51px;
+ margin-top: 4%;
+ padding-right: 4%;
+}
+.header h1 {
+  margin-top: 4%;
+ padding-right: 4%
+}
+.circulos {
+  width: 650px;
+    margin: 0 auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.circulo {
+  box-sizing: border-box;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(130.53deg, #404040 17.47%, #404040 27.71%, #B0B0B0 27.72%, #B0B0B0 36.75%, #404040 36.76%, #404040 45.49%, #B0B0B0 45.5%, #B0B0B0 54.23%, #404040 54.24%, #404040 63.27%, #B0B0B0 63.27%, #B0B0B0 71.71%, #404040 71.71%);
+border: 3px solid #FFFFFF;
+float: left;
+margin: 15px;
+}
+.colorPicker {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  text-align: initial;
+}
+
+.nombrePaleta{
+  width: 250px;
+  margin-left: 5%;
+  padding: 1%;
+}
+
+.nombrePaleta button {
+  float: right;
+  width: 50px;
+}
+.nombrePaleta input{
+  background-color: #2C2C2C;
+  border: 1px solid #FFFFFF;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+
+}
+.spanPlus {
+  font-size: 25px;
+}
+.container_paletasGuardadas {
+  width: 850px;
+  margin: 0 auto;
+}
+.cajaGuardados {
+  margin: 30px;
+  width: 25%;
+  float: left;
+}
+.paletasGuardadas {
+  width: 220px;
+  padding: 5%;
+  display: flex;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 20px;
+  
+}
+.circulo_guardado {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: 0px 5px 0px 5px;
+  border: 2px solid white;
+}
+.nombre {
+
+}
+.nombrePaletaGuardada {
+ float: left;
+  margin-left: 5%;
+}
+.iconPapelera {
+ float: right;
+}
+.spanPlusCirculos{
+ font-size: 40px;
+ margin: 0 auto;
+ -webkit-touch-callout: none; /* iOS Safari */
+ -webkit-user-select: none;   /* Chrome/Safari/Opera */
+ -khtml-user-select: none;    /* Konqueror */
+ -moz-user-select: none;      /* Firefox */
+ -ms-user-select: none;       /* Internet Explorer/Edge */
+ user-select: none;
+}
+.textoGuardados {
+  text-align: start;
+  margin-top: 5%;
+} 
+
+@media(max-width: 860px){
+  .container_paletasGuardadas {
+    width: 650px;
+    margin: 0 auto;
+  }
+  .cajaGuardados {
+    margin: 30px;
+    width: 36%;
+    float: left;
+}
+}
+
+
+
+@media(max-width: 600px) {
+  .cajaGuardados {
+    margin: 30px;
+    width: 33%;
+    float: left;
+}
+.circulos {
+  width: 550px;
+  margin: 0 auto;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.textoGuardados {
+  text-align: start;
+  margin-top: 5%;
+  margin-left: 5%;
+} 
+
+}
+
+@media (max-width:578px){
+  .circulos {
+    width: 380px;
+    margin: 0 auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.textoGuardados {
+  text-align: start;
+  margin-top: 5%;
+  margin-left: 15%;
+} 
+.colorPicker {
+    
+    display: grid; 
+    /* justify-content: center; */
+    padding-top: 5%;
+    
+    text-align: initial;
+}
+.nombrePaleta {
+  width: 250px;
+  margin-left: 5%;
+  padding: 1%;
+  margin-top: 10%;
+}
+.container_paletasGuardadas {
+  width: 295px;
+  margin: 0 auto;
+}
+.iconPapelera {
+  
+  position: relative;
+  left: 110px;
+ 
+ 
+}
+.header img {
+  width: 55px;
+  height: 51px;
+  margin-top: 11%;
+  padding-right: 5%;
+  padding-left: 12%;
+
+}
+}
